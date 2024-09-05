@@ -14,3 +14,8 @@ body {
 .task-card:hover {
   cursor: grab;
 }
+
+#btn_submit {
+  text-align: center;
+  margin-top: 18px;
+}
