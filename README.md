@@ -2,7 +2,7 @@
 
 ## Description
 
-This apps allows the user to add tasks with the due date into a user-friendly UI. He can then move it around depending on the status of the task and can delete it.
+This apps allows the user to add tasks with the due date into a user-friendly UI. He can then move it around depending on the status of the task and can delete it. Can be found at: https://aladintork.github.io/Task-Board/
 
 ## Table of Content
 
