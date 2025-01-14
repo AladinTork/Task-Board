@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
 
@@ -9,6 +9,9 @@ body {
 
 .task-card {
   margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .task-card:hover {
@@ -18,4 +21,27 @@ body {
 #btn_submit {
   text-align: center;
   margin-top: 18px;
+}
+
+/* Color Codes for Columns */
+#to-do .task-card {
+  background-color: #f8d7da; /* Light red for To Do */
+}
+
+#in-progress .task-card {
+  background-color: #fff3cd; /* Light yellow for In Progress */
+}
+
+#done .task-card {
+  background-color: #d4edda; /* Light green for Done */
+}
+
+/* Highlighting the columns */
+.lane.highlight {
+  border: 2px solid #007bff;
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.highlight {
+  background-color: #e0e0e0; /* Change this color to highlight the drop area */
 }
