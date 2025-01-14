@@ -14,7 +14,7 @@ function createTaskCard(task) {
 
   let taskClass = "";
   if (diffDays < 0) {
-    taskClass = "overdue"; // Task is overdue
+    taskClass = "overdue"; 
   } else if (diffDays <= 3) {
     taskClass = "nearing-deadline"; // Task is near deadline (3 days)
   }
